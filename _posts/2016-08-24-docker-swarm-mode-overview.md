@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker swarm mode overview 간략 번역"
 date:   2016-08-24 14:40:41 +0900
-categories: jekyll update
+categories: docker "docker swarm mode"
 ---
 # Docker Swarm mode overview
 https://docs.docker.com/engine/swarm/
