@@ -4,7 +4,6 @@ title:  "Docker swarm mode Totorial 간략 번역"
 date:   2016-08-28 23:15:41 +0900
 categories: docker "docker swarm mode"
 ---
-
 # Swam mode Tutorial
 [원문: https://docs.docker.com/engine/swarm/swarm-tutorial/](https://docs.docker.com/engine/swarm/swarm-tutorial/)
 
