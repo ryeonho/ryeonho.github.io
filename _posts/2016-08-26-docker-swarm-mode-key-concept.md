@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Docker swarm mode key concept 간략 번역"
+date:   2016-08-26 18:40:41 +0900
+categories: docker "docker swarm mode"
+---
+
 # Swarm mode key concept
 
 [원문](https://docs.docker.com/engine/swarm/key-concepts/)
