@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker swarm mode Totorial 간략 번역"
 date:   2016-08-28 23:15:41 +0900
-categories: docker "docker swarm mode"
+categories: docker
 ---
 # Swam mode Tutorial
 [원문: https://docs.docker.com/engine/swarm/swarm-tutorial/](https://docs.docker.com/engine/swarm/swarm-tutorial/)
@@ -59,7 +59,7 @@ setup이 완료 되었다면 swarm을 생성할 준비가 된 것임. Docker Eng
 1. manager node 머신에  ssh 접속. 이 튜토리얼에서는 manager1.
 2. 아래의 명령어로 swarm 생성
 
-     ``` 
+     ```
     docker swarm init --advertise-addr <MANAGER-IP>
      ```
     이 튜토리얼에서는 아래와 같이 manager1에서 swarm 생성
@@ -67,13 +67,13 @@ setup이 완료 되었다면 swarm을 생성할 준비가 된 것임. Docker Eng
     ```
     $ docker swarm init --advertise-addr 192.168.99.100
     Swarm initialized: current node (dxn1zf6l61qsb1josjja83ngz) is now a manager.
-    
+
     To add a worker to this swarm, run the following command:
-    
+
     docker swarm join \
     --token SWMTKN-1-49nj1cmql0jkz5s954yi3oex3nedyz0fb0xx14ie39trti4wxv-8vxv8rssmk743ojnwacrr2e7c \
     192.168.99.100:2377
-    
+
     To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
      ```
 
@@ -81,7 +81,7 @@ setup이 완료 되었다면 swarm을 생성할 준비가 된 것임. Docker Eng
 3. `docker info` 로 현재 swarm 상태 확인
     ````
     $ docker info
-    
+
     Containers: 2
     Running: 0
     Paused: 0
@@ -97,7 +97,7 @@ setup이 완료 되었다면 swarm을 생성할 준비가 된 것임. Docker Eng
 4. `docker node ls`로 nodes들의 상태 확인
     ````
     $ docker node ls
-    
+
     ID                           HOSTNAME  STATUS  AVAILABILITY  MANAGER STATUS
     dxn1zf6l61qsb1josjja83ngz *  manager1  Ready   Active        Leader
     ````
@@ -125,7 +125,7 @@ manager node과 함께 swarm을 생성했다면 이제 work node를 추가할 �
 
     docker swarm join \
     --token SWMTKN-1-49nj1cmql0jkz5s954yi3oex3nedyz0fb0xx14ie39trti4wxv-8vxv8rssmk743ojnwacrr2e7c \
-    192.168.99.100:2377 
+    192.168.99.100:2377
      ```
 3. 다시 terminal로 이번에는 두번째 worker node로 ssh 접속. 이 튜토리얼에서는 worker2
 4. 앞의 같은 명령어로 swarm에 두번째 worker node를 생성
