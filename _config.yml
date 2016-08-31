@@ -26,3 +26,6 @@ github_username:  ryeonho
 # Build settings
 markdown: kramdown
 theme: minima
+
+# custom
+google_analytics: UA-45241466-1
