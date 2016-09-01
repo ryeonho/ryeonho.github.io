@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Docker swarm mode Totorial 간략 번역"
+title:  "Docker swarm mode Tutorial 간략 번역"
 date:   2016-08-28 23:15:41 +0900
 categories: docker
 ---
@@ -548,7 +548,7 @@ swarm에 Service를 deploy한 다음에는 Docker CLI를 이용해서 Service ps
    ```
 
    Active 상태이므로 다음의 상황에서 task를 받을 수 있게 됨
-   
+
    - service가 scale up 하게 될 때
    - rolling update하게 될 때
    - 다른 node를 ‘Drain’으로 변경했을 때
