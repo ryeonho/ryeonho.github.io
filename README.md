@@ -25,5 +25,5 @@ bundle install
 ### 실행
 
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve --watch
 ```
