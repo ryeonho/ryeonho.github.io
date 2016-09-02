@@ -5,10 +5,14 @@ date:   2016-08-28 23:15:41 +0900
 categories: docker
 ---
 # Swam mode Tutorial
-[원문: https://docs.docker.com/engine/swarm/swarm-tutorial/](https://docs.docker.com/engine/swarm/swarm-tutorial/)
+[원문](https://docs.docker.com/engine/swarm/swarm-tutorial/)
 
-Docker Engine의 Swarm mode 튜토리얼
+
+Docker Engine의 Swarm mode 튜토리얼  
 Key concept 미리 읽어 두는 것이 좋음
+
+- [overview 간략 번역](http://www.ryeonho.com/docker/2016/08/24/docker-swarm-mode-overview.html)
+- [Key concept 간략 번역](http://www.ryeonho.com/docker/2016/08/26/docker-swarm-mode-key-concept.html)
 
 튜토리얼 내용
 
