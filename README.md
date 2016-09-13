@@ -27,3 +27,8 @@ bundle install
 ```
 bundle exec jekyll serve --watch
 ```
+
+### new post
+
+_posts/yyyy-mm-dd-title.md 파일 만들면 됨.
+
