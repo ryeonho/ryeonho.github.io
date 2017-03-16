@@ -12,7 +12,10 @@ docker 사용.
 ## 실행
 
 ```
-make serve
+make first
+make run
+make clean
+
 ```
 
 ## new post
