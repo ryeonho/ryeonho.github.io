@@ -11,13 +11,9 @@ run:
 stop:
 	docker stop jekyll
 
-first:
+runfirst:
 	docker run --name jekyll --volume=$(curdir):/srv/jekyll \
-	  -it -p 127.0.0.1:4000:4000 jekyll/jekyll jekyll serve --draft
+	  -it --network host jekyll/jekyll jekyll serve --draft
 
 clean:
 	docker rm jekyll
-
-serve_once:
-	docker run --rm --label=jekyll --volume=$(curdir):/srv/jekyll \
-	  -it -p 127.0.0.1:4000:4000 jekyll/jekyll jekyll serve
