@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-아무거나 개발자.
+- Language: Python, Javascript, Perl, PHP, Java, C, Go
+- Framework:  Django, Express, Vue, React, Backbone, CakePHP, Symfony, CodeIgniter, J2EE, Spring, Amon2
+
